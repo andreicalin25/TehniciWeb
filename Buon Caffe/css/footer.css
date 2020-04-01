@@ -1,0 +1,35 @@
+footer {
+    background:linear-gradient(to bottom, #3c2f2f,  #181212);
+}
+
+#footer_top {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.social {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px;
+}
+
+#footer_top p{
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif	;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    #footer_top p{
+        font-family: New Century Schoolbook, TeX Gyre Schola, serif	;
+        font-size: 100%;
+        margin-bottom: 0;
+    }
+
+    #footer_bottom p{
+        font-size: 10px;
+    }
+}

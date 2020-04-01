@@ -1,0 +1,144 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: #3c2f2f;
+}
+
+
+#mesaj {
+    font-family: Bradley Hand, cursive;
+    color: white;
+    font-size: 400%;
+    text-align: center;
+    margin: 10% 10% 10% 10%;
+    text-shadow: -1px  3px #be9b7b,  -3px 0px #904b36;
+}
+
+#imagini {
+    margin-left: 0.5%; 
+}
+
+.img {
+    display: inline;
+    margin:0;
+}
+.imagine-standard {
+    display: inline-block;
+    width:33%;
+}
+.img-top {
+    width:33%;
+}
+.img .img-top {
+    display: none;
+}
+
+.img:hover .img-top{
+    display: inline;    
+}
+
+.img:hover .imagine-standard{
+    display: none;
+}
+
+#locatie {
+    margin-left: 1.5%;
+    margin-top: 4%;
+    font-size: 30px;
+}
+
+#locatie p {
+    font-size: 40px;
+}
+
+#locatie ul {
+    margin-left: 3%;
+}
+
+.loc {
+   
+    color: white;
+    text-decoration: underline;
+}
+
+.loc:hover {
+    color: rgb(255, 232, 98);
+}
+
+
+@media (max-width: 600px) {
+
+    body {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        background-color: #3c2f2f;
+    }
+    
+    
+    #mesaj {
+        font-family: Bradley Hand, cursive;
+        color: white;
+        font-size: 220%;
+        text-align: center;
+        margin: 10% 10% 10% 10%;
+        text-shadow: -1px  3px #be9b7b,  -3px 0px #904b36;
+    }
+    
+    #imagini {
+        margin-left: 0.5%; 
+        margin-right: 0.5%;
+    }
+    
+    .img {
+        display: inline;
+        margin:0;
+    }
+    .imagine-standard {
+        display: inline-block;
+        width: 100%;
+    }
+    .img-top {
+        width:100%;
+    }
+    
+    .img .img-top {
+        display: none;
+    }
+    
+    .img:hover .img-top{
+        display: inline;    
+    }
+    
+    .img:hover .imagine-standard{
+        display: none;
+    }
+    
+    #locatie {
+        margin-left: 0%;
+        margin-top: 4%;
+        font-size: 25px;
+    }
+    
+    #locatie p {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #locatie ul {
+        margin-left: 3%;
+    }
+    
+    .loc {
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .loc:hover {
+        color: rgb(255, 232, 98);
+    }
+    
+}
